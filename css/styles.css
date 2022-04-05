@@ -1,0 +1,601 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+html, 
+body {
+ height: 100%;
+}
+h1, 
+h2, 
+h3, 
+h4, 
+h5, 
+h6, 
+p {
+ margin-bottom: 16px
+}
+
+@font-face {
+    font-family: CursiveCaranda;
+    src: url(../fonts/CarandaPersonalUse-qLOq.ttf);
+}
+
+@font-face {
+    font-family: SwanseaBold;
+    src: url(../fonts/SwanseaBold-D0ox.ttf);
+}
+
+@font-face {
+    font-family: SwanseaTraditional;
+    src: url(../fonts/Swansea-q3pd.ttf);
+}
+
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: SwanseaTraditional;
+    font-size: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E60026;
+    border-spacing: 2px;
+    font-family: SwanseaTraditional;
+    padding-right: 150px;
+}
+
+.spa-nav {
+    background-color: #F9D73D;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 180px;
+}
+
+.hero-image {
+    background-image: url("../images/SB_SPORT_SPA_02.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1520px;
+    margin-top: 1px;
+}
+
+.title {
+    font-family: CursiveCaranda;
+    color: #E60026;
+    margin-bottom: 70px;
+}
+
+.title h1 {
+    height: 700px;
+    width: 1520px;
+    text-align: center;
+    padding-top: 230px;
+    font-size: 60px;
+}
+
+.left-column {
+    flex-basis: 50%;
+}
+
+.right-column {
+    flex-basis: 50%;
+    margin-top: 50px;
+}
+
+.spa-info {
+    display: flex;
+    flex-flow: row nowrap;
+    width: 1520px;
+}
+
+.homepage-logo-image img {
+    width: 800px;
+}
+
+.our-story-paragraph {
+    width: 350px;
+    line-height: 30px;
+}
+
+.our-story-paragraph h1 {
+    font-family: SwanseaBold;
+    color: #E60026;
+}
+
+.our-story-paragraph p {
+    font-family: SwanseaTraditional;
+    color: #707070;
+}
+
+.our-mission-paragraph {
+    width: 350px;
+    line-height: 30px;
+}
+
+.our-mission-paragraph h2 {
+    font-family: SwanseaBold;
+    color: #E60026;
+}
+
+.our-mission-paragraph p {
+    font-family: SwanseaTraditional;
+    color: #707070;
+}
+
+.hours {
+    background-color: #E60026;
+}
+
+.hours-title {
+    font-family: CursiveCaranda;
+    color: white;
+    font-size: 75px;
+    text-align: center;
+}
+
+.spa-hours {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+.left-column-hours {
+    font-family: SwanseaTraditional;
+    color: white;
+}
+
+.right-column-hours {
+    font-family: SwanseaTraditional;
+    color: white;
+    margin-left: 60px;
+}
+
+.meet-our-team {
+    font-family: SwanseaBold;
+    color: #707070;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.team-intro {
+    color: #707070;
+    font-family: SwanseaTraditional;
+    width: 700px;
+    line-height: 30px;
+    margin-left: 390px;
+    text-align: center;
+}
+
+.therapists-list {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 35px;
+}
+
+.david img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.david-name {
+    font-family: SwanseaBold;
+    color: #E60026;
+    margin-left: 35px;
+}
+
+.david-job {
+    font-family: SwanseaTraditional;
+    color: #E60026;
+    margin-left: 80px;
+}
+
+.mike img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.mike-name {
+    font-family: SwanseaBold;
+    color: #E60026;
+    margin-left: 15px;
+}
+
+.mike-job {
+    font-family: SwanseaTraditional;
+    color: #E60026;
+    margin-left: 60px;
+}
+
+.kyra img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.kyra-name {
+    font-family: SwanseaBold;
+    color: #E60026;
+    margin-left: 40px;
+}
+
+.kyra-job {
+    font-family: SwanseaTraditional;
+    color: #E60026;
+    margin-left: 5px;
+}
+
+.derynn img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.derynn-name {
+    font-family: SwanseaBold;
+    color: #E60026;
+    margin-left: 22px;
+}
+
+.derynn-job {
+    font-family: SwanseaTraditional;
+    color: #E60026;
+}
+
+.nicole img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.nicole-name {
+    font-family: SwanseaBold;
+    color: #E60026;
+    margin-left: 15px;
+}
+
+.nicole-job {
+    font-family: SwanseaTraditional;
+    color: #E60026;
+}
+
+.joelle img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.joelle-name {
+    font-family: SwanseaBold;
+    color: #E60026;
+    margin-left: 30px;
+}
+
+.joelle-job {
+    font-family: SwanseaTraditional;
+    color: #E60026;
+}
+
+.emily img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.emily-name {
+    font-family: SwanseaBold;
+    color: #E60026;
+    margin-left: 37px;
+}
+
+.emily-job {
+    font-family: SwanseaTraditional;
+    color: #E60026;
+    margin-left: 5px;
+}
+
+.kathryn img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.kathryn-name {
+    font-family: SwanseaBold;
+    color: #E60026;
+    margin-left: 20px;
+}
+
+.kathryn-job {
+    font-family: SwanseaTraditional;
+    color: #E60026;
+    margin-left: 1px;
+}
+
+.nicole-amelia img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.namelia-name {
+    font-family: SwanseaBold;
+    color: #E60026;
+    margin-left: 20px;
+}
+
+.namelia-job {
+    font-family: SwanseaTraditional;
+    color: #E60026;
+}
+
+.sher img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.sher-name {
+    font-family: SwanseaBold;
+    color: #E60026;
+    margin-left: 32px;
+}
+
+.sher-job {
+    font-family: SwanseaTraditional;
+    color: #E60026;
+}
+
+.bryce img {
+    border-radius: 50%;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.bryce-name {
+    font-family: SwanseaBold;
+    color: #E60026;
+    margin-left: 20px;
+}
+
+.bryce-job {
+    font-family: SwanseaTraditional;
+    color: #E60026;
+    margin-left: 20px;
+}
+
+.davonne img {
+    border-radius: 50%;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.davonne-name {
+    font-family: SwanseaBold;
+    color: #E60026;
+    margin-left: 20px;
+}
+
+.davonne-job {
+    font-family: SwanseaTraditional;
+    color: #E60026;
+    margin-left: 20px;
+}
+
+.ranin img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.ranin-name {
+    font-family: SwanseaBold;
+    color: #E60026;
+    margin-left: 33px;
+}
+
+.ranin-job {
+    font-family: SwanseaTraditional;
+    color: #E60026;
+    margin-left: 5px;
+}
+
+.minh-ly img {
+    border-radius: 50%;
+    width: 200px;
+    margin-left: 32px;
+}
+
+.minh-ly-name {
+    font-family: SwanseaBold;
+    color: #E60026;
+    margin-left: 23px;
+}
+
+.minh-ly-job {
+    font-family: SwanseaTraditional;
+    color: #E60026;
+    margin-left: 35px;
+}
+
+.dani img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.dani-name {
+    font-family: SwanseaBold;
+    color: #E60026;
+    margin-left: 40px;
+}
+
+.dani-job {
+    font-family: SwanseaTraditional;
+    color: #E60026;
+    margin-left: 1px;
+}
+
+.caro img {
+    border-radius: 50%;
+    width: 200px;
+    margin-left: 1px;
+}
+
+.caro-name {
+    font-family: SwanseaBold;
+    color: #E60026;
+    margin-left: 45px;
+}
+
+.caro-job {
+    font-family: SwanseaTraditional;
+    color: #E60026;
+    margin-left: 1px;
+}
+
+.spa-massage {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 80px;
+}
+
+.massage {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.massage img {
+    height: 190px;
+    width: 190px;
+    margin-right: 40px;
+    margin-top: 33px;
+    margin-left: 90px;
+}
+
+.book-button {
+    background-color: #E60026;
+    font-family: SwanseaTraditional;
+    color: white;
+    height: 35px;
+    width: 110px;
+    border: 2px solid none;
+    font-size: 15px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.massage-title {
+    color: #707070;
+    margin-top: 33px;
+}
+
+.massage-title h2 {
+    font-family: SwanseaBold;
+}
+
+.massage-title p {
+    font-family: SwanseaTraditional;
+}
+
+.first-column-massage {
+    width: 600px;
+}
+
+.second-column-massage {
+    width: 600px;
+}
+
+.massage-image {
+    background-image: url("../images/spain-ocean.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1520px;
+    margin-top: 1px;
+}
+
+.contact-image {
+    background-image: url("../images/spain-ocean.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1520px;
+    margin-top: 1px;
+}
+
+.spa-contact {
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: left;
+    color: #707070;
+    font-family: SwanseaTraditional;
+    margin-top: 23px;
+    margin-left: 85px;
+}
+
+.rectangle-name {
+    height: 50px;
+    width: 705px;
+    margin-top: 34px;
+    border-style: solid;
+    border-color: #707070;
+}
+
+.rectangle-email {
+    height: 50px;
+    width: 705px;
+    margin-top: 34px;
+    border-style: solid;
+    border-color: #707070;
+}
+
+.rectangle-message {
+    height: 250px;
+    width: 705px;
+    margin-top: 34px;
+    border-style: solid;
+    border-color: #707070;
+}
+
+.contact-button {
+    background-color: #E60026;
+    font-family: SwanseaTraditional;
+    color: white;
+    height: 35px;
+    width: 110px;
+    border: 2px solid none;
+    font-size: 15px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 55px;
+}
+
+.footer {
+    background-color: #E60026;
+    margin-top: 40px;
+}
+
+.address {
+    font-family: SwanseaTraditional;
+    color: white;
+    line-height: 6px;
+    font-size: 12px;
+    padding-left: 12px;
+    padding-top: 12px;
+}
+
+.copyright {
+    font-family: SwanseaTraditional;
+    color: white;
+    text-align: center;
+    font-size: 12px;
+}

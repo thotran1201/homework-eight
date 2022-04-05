@@ -1,0 +1,24 @@
+nav {
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    font-family: SwanseaTraditional;
+    font-size: 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #E60026;
+    border-spacing: 2px;
+    font-family: SwanseaTraditional;
+    padding-right: 150px;
+}
+
+.spa-nav {
+    background-color: #F9D73D;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    align-items: center;
+}

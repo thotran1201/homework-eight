@@ -1,0 +1,204 @@
+.hero-image {
+    background-image: url("../images/SB_SPORT_SPA_02.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1520px;
+    margin-top: 1px;
+}
+
+.logo img {
+    height: 180px;
+}
+
+.homepage-logo-image img {
+    width: 800px;
+}
+
+.hours {
+    background-color: #E60026;
+}
+
+.therapists-list {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+    padding-right: 300px;
+    padding-left: 300px;
+    padding-top: 35px;
+}
+
+.david img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.mike img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.kyra img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.derynn img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.nicole img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.joelle img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.emily img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.kathryn img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.nicole-amelia img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.sher img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.bryce img {
+    border-radius: 50%;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.davonne img {
+    border-radius: 50%;
+    width: 200px;
+    margin-left: 20px;
+}
+
+.ranin img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.minh-ly img {
+    border-radius: 50%;
+    width: 200px;
+    margin-left: 32px;
+}
+
+.dani img {
+    border-radius: 50%;
+    width: 200px;
+}
+
+.caro img {
+    border-radius: 50%;
+    width: 200px;
+    margin-left: 1px;
+}
+
+.spa-massage {
+    display: flex;
+    flex-flow: row nowrap;
+    margin-left: 80px;
+}
+
+.massage {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.massage img {
+    height: 190px;
+    width: 190px;
+    margin-right: 40px;
+    margin-top: 33px;
+    margin-left: 90px;
+}
+
+.book-button {
+    background-color: #E60026;
+    font-family: SwanseaTraditional;
+    color: white;
+    height: 35px;
+    width: 110px;
+    border: 2px solid none;
+    font-size: 15px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 8px;
+}
+
+.massage-image {
+    background-image: url("../images/spain-ocean.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1520px;
+    margin-top: 1px;
+}
+
+.contact-image {
+    background-image: url("../images/spain-ocean.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    width: 1520px;
+    margin-top: 1px;
+}
+
+.rectangle-name {
+    height: 50px;
+    width: 705px;
+    margin-top: 34px;
+    border-style: solid;
+    border-color: #707070;
+}
+
+.rectangle-email {
+    height: 50px;
+    width: 705px;
+    margin-top: 34px;
+    border-style: solid;
+    border-color: #707070;
+}
+
+.rectangle-message {
+    height: 250px;
+    width: 705px;
+    margin-top: 34px;
+    border-style: solid;
+    border-color: #707070;
+}
+
+.contact-button {
+    background-color: #E60026;
+    font-family: SwanseaTraditional;
+    color: white;
+    height: 35px;
+    width: 110px;
+    border: 2px solid none;
+    font-size: 15px;
+    border-radius: 25px;
+    text-align: center;
+    padding-top: 8px;
+    margin-top: 55px;
+}
